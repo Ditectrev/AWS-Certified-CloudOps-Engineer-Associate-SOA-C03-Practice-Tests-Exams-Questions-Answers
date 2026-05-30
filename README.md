@@ -645,8 +645,7 @@ Configure the rule to invoke an AWS Lambda function to enable CloudTrail.
 
 - [ ] Create an IAM policy in each developer account that has read-only access related to `VPC` resources Assign the policy to an IAM user. Share the user credentials with the security engineer.
 - [ ] Create an IAM policy in each developer account that has administrator access to all Amazon EC2 actions, including `VPC` actions. Assign the policy to an IAM user. Share the user credentials with the security engineer.
-- [ ] Create an IAM policy in each developer account that has administrator access related to
-`VPC` resources. Assign the policy to a cross-account IAM role. Ask the security engineer to assume the role from their account.
+- [ ] Create an IAM policy in each developer account that has administrator access related to `VPC` resources. Assign the policy to a cross-account IAM role. Ask the security engineer to assume the role from their account.
 - [x] Create an IAM policy in each developer account that has read-only access related to `VPC` resources. Assign the policy to a cross-account IAM role. Ask the security engineer to assume the role from their account.
 
 **[⬆ Back to Top](#table-of-contents)**
